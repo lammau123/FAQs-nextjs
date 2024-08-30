@@ -6,41 +6,47 @@ Create a responsive FAQ (Frequently Asked Questions) page in Next.js that displa
 
 ## Requirements
 
-  ## Static Route:
+#### Static Route:
 
-Create a page at /faq that displays a list of FAQ items.
-Each FAQ item should consist of a question and an answer.
-Simulated FAQ Data:
+- Create a page at /faq that displays a list of FAQ items.
+- Each FAQ item should consist of a question and an answer.
 
-Use a local array of objects to simulate the FAQ data.
-Each FAQ object should have a question and an answer.
-Search Functionality:
+#### Simulated FAQ Data:
 
-Implement a search bar at the top of the page that filters the FAQ items based on the text input.
-The search should be case-insensitive and should match the search term against the questions.
-Accordion Functionality:
+- Use a local array of objects to simulate the FAQ data.
+- Each FAQ object should have a question and an answer.
 
-Each FAQ question should be clickable to toggle the visibility of the answer.
-When a question is clicked, the corresponding answer should expand below it.
-If the question is clicked again, the answer should collapse.
-Responsive Design:
+#### Search Functionality:
 
-The page should be fully responsive and look good on both desktop and mobile devices.
-Use Tailwind CSS for all styling.
-Bonus Challenges
+- Implement a search bar at the top of the page that filters the FAQ items based on the text input.
+- The search should be case-insensitive and should match the search term against the questions.
 
-Expand/Collapse All: Add buttons to expand or collapse all FAQ items at once.
-Persist Search State: Save the user's search query in the URL so that it persists across page reloads.
-Example Submission
+#### Accordion Functionality:
 
-Your submission should be a single .js file containing:
+- Each FAQ question should be clickable to toggle the visibility of the answer.
+- When a question is clicked, the corresponding answer should expand below it.
+- If the question is clicked again, the answer should collapse.
 
-A functional Next.js page at /faq.
-All necessary code to implement the FAQ accordion with search functionality.
-Styling implemented with Tailwind CSS directly in the file.
-Example FAQ Data
+#### Responsive Design:
 
-const faqs = [
+- The page should be fully responsive and look good on both desktop and mobile devices.
+- Use Tailwind CSS for all styling.
+
+## Additional Features
+
+- Expand/Collapse All: Add buttons to expand or collapse all FAQ items at once.
+- Persist Search State: Save the user's search query in the URL so that it persists across page reloads.
+
+## Code should be a single .js file containing:
+
+- A functional Next.js page at /faq.
+- All necessary code to implement the FAQ accordion with search functionality.
+- Styling implemented with Tailwind CSS directly in the file.
+
+## Example FAQ Data
+
+
+> const faqs = [
   { question: 'What is Next.js?', answer: 'Next.js is a React framework for building web applications.' },
   { question: 'How does Tailwind CSS work?', answer: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom designs.' },
   { question: 'What is the purpose of getStaticProps?', answer: 'getStaticProps is used to fetch data at build time in Next.js.' },
