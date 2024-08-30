@@ -52,3 +52,12 @@ const faqs = [
   { question: 'What is the purpose of getStaticProps?', answer: 'getStaticProps is used to fetch data at build time in Next.js.' },
 ];
 ```
+
+## Implementation:
+See the source code at /app/faqs/page.js
+
+Run the app: npm run dev
+
+Expected output:
+
+[![FAQS page](/assets/images/faqs.png)]
