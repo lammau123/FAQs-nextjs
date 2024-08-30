@@ -60,4 +60,4 @@ Run the app: npm run dev
 
 Expected output:
 
-[![FAQS page](/assets/images/faqs.png)]
+![FAQS page](/assets/images/faqs.png)
